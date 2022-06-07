@@ -3,7 +3,7 @@ from urllib.request import urlretrieve
 base_url = "https://raw.githubusercontent.com/codingalzi/pybook/master/jupyter-book/data/"
 data_path = Path() / "data"
 data_path.mkdir(parents=True, exist_ok=True)
-\def myWget(filename):
+def myWget(filename):
     # 다운로드 대상 파일 경로
     file_url = base_url + filename
 
